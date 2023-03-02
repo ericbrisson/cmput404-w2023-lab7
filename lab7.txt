@@ -1,0 +1,39 @@
+### --- CMPUT 404 Lab 7 --- ###
+### --- Eric Brisson --- ###
+
+# Question 0
+https://github.com/ericbrisson/cmput404-w2023-lab7
+
+# Question 1
+Django is very managed, compared to Flask, which is very bare bones.  Django provides lots of libraries and fleshes out a much larger,
+more robust project structure that allows for extendibility for full-stack projects, whereas Flask handles more so quick and easy backend projects,
+like setting up a simple RESTful API.
+
+# Question 2
+REST stands for REpresentational State Transfer. **
+
+# Question 3
+CRUD stands for Create Read Update Delete.
+C(reate) -> POST
+R(ead) -> GET
+U(pdate) -> PUT/PATCH
+D(elete) -> DELETE
+
+# Question 4
+As per https://developer.mozilla.org/en-US/docs/Web/HTTP/Status:
+1.xx -> Informational responses (ie. additional information)
+2.xx -> Successful responses (ie.  it worked! here's the response)
+3.xx -> Redirection responses (ie. request for this elsewhere)
+4.xx -> Client-side error responses (ie. client made a weird request)
+5.xx -> Server-side error responses (ie. something wrong happened in backend)
+
+# Question 5
+From https://owasp.org/www-community/attacks/xss/:
+An XSS attack (aka cross site scripting) is when a malicious script is sent to a client, and gets executed by the browser because it thinks
+the source is a trusted source. 
+
+An example could be where a malicious user writes JavaScript code inside of an <input> element on a website and it gets executed. 
+
+# Question 6
+CORS stands for Cross-Origin Resource Sharing.
+You'll need CORS protection when your site makes requests to domains other than your own. A good example of this will be the group project in this class!
